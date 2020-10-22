@@ -1,0 +1,123 @@
+@media only screen and (max-width: 1100px) {
+  .list-item {
+    position: fixed;
+    width: 100%;
+    height: 65vh;
+    background: rgba(77, 78, 84, 1);
+    top: 4.8rem;
+    left: -100%;
+    text-align: center;
+    display: block;
+    li {
+      padding: 2rem;
+    }
+  }
+  .show {
+    left: 0;
+    transition: 0.6s ease;
+  }
+  #home {
+    header {
+      .heading {
+        font-size: 3rem;
+      }
+      .main-content {
+        padding: 1rem 0rem 3rem 2rem;
+      }
+      #icon {
+        display: block;
+      }
+      nav {
+        width: 100%;
+        padding: 1rem;
+      }
+    }
+    #search {
+      width: 90%;
+      li {
+        padding: 1rem 0.3rem;
+      }
+      .form {
+        flex-direction: column;
+        padding: 2rem;
+      }
+    }
+    .service {
+      transform: translate(0%, -10%);
+      flex-direction: column;
+      .service-content {
+        flex-direction: column;
+        padding-bottom: 3rem;
+      }
+    }
+  }
+  #destination .time .Demo {
+    font-size: 1.2rem;
+  }
+  .card {
+    width: 85%;
+  }
+  #offers {
+    img {
+      height: 47vh;
+      margin-top: 2rem;
+      width: 65%;
+    }
+    .offer {
+      flex-direction: column;
+      align-items: flex-start;
+      padding-left: 2rem;
+      .offer-content {
+        width: 90%;
+      }
+    }
+  }
+  #subscription {
+    .content h2 {
+      font-size: 2rem;
+    }
+    .content h3 {
+      font-size: 1rem;
+    }
+    input {
+      width: 80%;
+    }
+    .book-btn {
+      transform: translate(0%, 0%);
+      margin-top: 2rem;
+    }
+  }
+  footer .footer-content {
+    flex-direction: column;
+    margin-left: 2rem;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 1100px) {
+  h2 {
+    font-size: 2.5rem;
+  }
+  h3,
+  h5 {
+    font-size: 2.1rem;
+  }
+  p {
+    font-size: 1.8rem;
+  }
+  ul {
+    font-size: 2rem;
+  }
+  #home {
+    header .heading {
+      font-size: 6rem;
+    }
+  }
+  .book-btn {
+    font-size: 2rem;
+  }
+  #home #search select {
+    font-size: 1.5rem;
+  }
+  #destination .time .Demo {
+    font-size: 2.2rem;
+  }
+}

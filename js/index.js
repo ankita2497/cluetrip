@@ -1,4 +1,4 @@
-let createDate = new Date("jan 8, 2021 12:00:00").getTime();
+let createDate = new Date("Apr 8, 2021 12:00:00").getTime();
 let x = setInterval(function () {
   let now = new Date().getTime();
   let diff = createDate - now;
@@ -14,7 +14,7 @@ let x = setInterval(function () {
 $(".owl-carousel").owlCarousel({
   loop: true,
   nav: true,
-  dots:true,
+  dots: true,
   autoplayTimeout: 2000,
   responsive: {
     0: {
